@@ -1,4 +1,4 @@
-## TodoList
+## Lights Out
 
 This project was created with a [React BootCamp Course]()
 
