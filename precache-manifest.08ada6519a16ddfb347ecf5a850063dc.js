@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a5a4904ee74257a81ecd9ccfbd8424f",
+    "revision": "1c7de78c714d50b956f879eda5074cf6",
     "url": "/lights-out/index.html"
   },
   {
