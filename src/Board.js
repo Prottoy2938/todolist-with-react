@@ -105,24 +105,29 @@ class Board extends Component {
       tblBoard.push(<tr key={y}>{row}</tr>);
     }
     return (
-      <table className='Board'>
+      <table className="Board">
         <tbody>{tblBoard}</tbody>
       </table>
     );
   }
   render() {
+    console.log(
+      "Lights icon icon by Icons8",
+      "https://icons8.com/icons/set/lights"
+    );
+
     return (
       <div>
         {this.state.hasWon ? (
-          <div className='winner'>
-            <span className='neon-orange'>YOU</span>
-            <span className='neon-blue'>WIN!</span>
+          <div className="winner">
+            <span className="neon-orange">YOU</span>
+            <span className="neon-blue">WIN!</span>
           </div>
         ) : (
           <div>
-            <div className='Board-title'>
-              <div className='neon-orange'>Lights</div>
-              <div className='neon-blue'>Out</div>
+            <div className="Board-title">
+              <div className="neon-orange">Lights</div>
+              <div className="neon-blue">Out</div>
             </div>
             {this.makeTable()}
           </div>
